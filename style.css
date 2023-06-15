@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:wght@500&display=swap');
+
+body {
+    background-color:#363636;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ /* Navbar  */
+
+nav{
+    font-family: "ubuntu", sans-serif;
+    color:white
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: black;
+}
+
+nav .brand{
+    margin-right: 420px;
+}
+
+nav ul li{
+padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 0 8px;
+    gap: 8px;
+}
+
+.brand img{
+    width: 30px;
+}
+
+
+
+
+
+
+/* Body  */
+
+.container{
+min-height: 75vh;
+color: white;
+font-family: 'Jost', sans-serif;
+display: flex;
+margin: 23px auto;
+width: 70%;
+border-radius: 12px;
+padding: 34px;
+background-image: url('musicalBG.jpg');
+}
+
+.songList{
+    background-color: rgb(0, 0,0,0.8);
+}
+
+.songItem{
+  height: 50px;
+  display:flex;
+  background-color: #363636;
+  color: white;  
+  width:80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 13px 12px;
+  border-radius: 23px;
+}
+
+.songItem i{
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.songItem img{
+    width: 45px;
+    border-radius: 100px;
+    margin: 0 23px;
+}
+
+/* Bottom of page */
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 110px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.icons i{
+    cursor: pointer;  
+}
+
+.forward , .backward{
+    padding: 8px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap : 36px
+}
+#myProgressBar{
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.songinfo{
+    position:absolute;
+    left:6vw;
+    display: flex;
+    gap : 9px ;
+    margin-top: 13px;
+    touch-action: none;
+    font-family: 'Jost', sans-serif ;
+}
+
+.songinfo p{
+    margin-top: 14px;
+}
+
+.giphy-embed{
+    opacity: 0;
+    touch-action: none;
+    transition: opacity, 1s ease-in;
+}
+

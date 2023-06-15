@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3fd950351a.js" crossorigin="anonymous"></script>
+    <link rel ="stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src= "Spotify.png" alt="spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <div class = 'container'>
+        <div class = "songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div>                                                                                                   
+                <div class="songItem">
+                    <img src="coverSong.jpeg" alt="1" >
+                    <span>Red</span>
+                    <span class = "songlistPlay"><span>03:08  </span><i class="fa-sharp fa-1x fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="coverSong.jpeg" alt="1" >
+                    <span>Red</span>
+                    <span class = "songlistPlay"><span>03:08  </span><i class="fa-sharp fa-1x fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="coverSong.jpeg" alt="1" >
+                    <span>Let </span>
+                    <span class = "songlistPlay"><span>03:08  </span><i class="fa-sharp fa-1x fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="coverSong.jpeg" alt="1" >
+                    <span>Red</span>
+                    <span class = "songlistPlay"><span>03:08  </span><i class="fa-sharp fa-1x fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="coverSong.jpeg" alt="1" >
+                    <span>Red</span>
+                    <span class = "songlistPlay"><span>03:08  </span><i class="fa-sharp fa-1x fa-solid fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="coverSong.jpeg" alt="1" >
+                    <span>Red</span>
+                    <span class = "songlistPlay"><span>03:08  </span><i class="fa-sharp fa-1x fa-solid fa-circle-play"></i></span>
+                </div>
+            </div> 
+        </div>  
+        <div class = "songBanner"></div>
+    </div>
+
+    <div class = "bottom">
+        <input type = "range" name = "range" id = "myProgressBar"  min = "0" max = "100">
+        <div class = "icons">
+            <i class="fa-solid fa-2x fa-backward-step forward"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-circle-play" id = 'masterPlay'  ><input type = "button" value="a"></i>
+            <i class="fa-solid fa-2x fa-forward-step backward"></i>
+        </div>
+        <div class="songinfo">
+            <iframe src="https://giphy.com/embed/9PADV09sITLDsjwyXL" width="50" height="50" frameBorder="0" class="giphy-embed" id = 'gif' allowFullScreen></iframe>
+            <p>RED -Taylor Swift</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
